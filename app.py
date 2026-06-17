@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load the trained model
-model = joblib.load("fake_account_detector.pkl")
+model = joblib.load("model/fake_account_detector.pkl")
 
 # Streamlit app title
 st.title("📷 Instagram Fake Account Detection")
